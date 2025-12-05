@@ -114,10 +114,6 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
-## 📞 Contact
-
-Your Name / Organization Name - [@YourTwitterHandle](https://twitter.com/YourTwitterHandle) (Optional)
-
 Project Link: [https://github.com/YUMNANASIR01/Human-Inspired-Robotics-Intelligence-](https://github.com/YUMNANASIR01/Human-Inspired-Robotics-Intelligence-)
 
 ---
