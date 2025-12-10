@@ -66,6 +66,10 @@ export default {
           "position": "right",
           "dropdownItemsBefore": [],
           "dropdownItemsAfter": []
+        },
+        {
+          "type": "custom-NavbarItems",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -338,6 +342,9 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    null
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "v4": {
@@ -366,7 +373,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

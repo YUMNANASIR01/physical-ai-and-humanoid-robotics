@@ -20,16 +20,16 @@ export default function Home() {
           Physical AI and Humanoid Robotics Textbook
         </h1>
         <p style={{ fontSize: "22px", maxWidth: "850px", margin: "0 auto", lineHeight: "1.6" }}>
-        Learn the future of robotics through a practical, 
+        Learn the future of robotics through a practical,
         end-to-end system—covering humanoid robotics, ROS 2, LAMs, simulation, VLA systems, hardware engineering,
         and the AI techniques driving tomorrow’s intelligent machines.
         </p>
 
       <Link
        className="button button--lg"
-      style={{ 
-       background: "#570683ff", 
-       color: "white", 
+      style={{
+       background: "#570683ff",
+       color: "white",
       borderRadius: "5px",
        marginTop : "20px",
        padding: "11px 20px"
@@ -47,7 +47,7 @@ export default function Home() {
           What This Textbook Covers
         </h2>
         <div>
-        <p style={{ fontSize: "18px", lineHeight: "1.6", color: "black", textAlign: "center", height :"120px"}}>
+        <p style={{ fontSize: "18px", lineHeight: "1.6", color: "inherit", textAlign: "center", height :"120px"}}>
           This is a complete AI-native engineering curriculum designed for physical AI, humanoid robots,
           embodied intelligence, ROS 2 programming, digital twin simulations, and Vision-Language-Action
           (VLA) systems. Each module builds your robotics superpowers step by step.
@@ -214,13 +214,13 @@ export default function Home() {
         Physical AI is bridging the gap between humans and machines.
         A new era of human-centered robotics is unfolding.
        Innovation is accelerating faster than ever before.
-       Begin your journey of mastery today. 
-        </p> 
+       Begin your journey of mastery today.
+        </p>
           <Link
        className="button button--lg"
-      style={{ 
-       background: "#570683ff", 
-       color: "white", 
+      style={{
+       background: "#570683ff",
+       color: "white",
       borderRadius: "5px",
        padding: "11px 20px"
       }}

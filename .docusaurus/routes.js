@@ -38,21 +38,51 @@ export default [
     exact: true
   },
   {
+    path: '/forgot-password',
+    component: ComponentCreator('/forgot-password', 'dfd'),
+    exact: true
+  },
+  {
+    path: '/login',
+    component: ComponentCreator('/login', 'a8c'),
+    exact: true
+  },
+  {
+    path: '/profile',
+    component: ComponentCreator('/profile', 'ef2'),
+    exact: true
+  },
+  {
+    path: '/settings',
+    component: ComponentCreator('/settings', 'eb4'),
+    exact: true
+  },
+  {
+    path: '/signup',
+    component: ComponentCreator('/signup', 'e02'),
+    exact: true
+  },
+  {
+    path: '/ur/',
+    component: ComponentCreator('/ur/', '0e5'),
+    exact: true
+  },
+  {
     path: '/',
     component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'b79'),
+    component: ComponentCreator('/', 'f4b'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'eff'),
+        component: ComponentCreator('/', 'daa'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'c90'),
+            component: ComponentCreator('/', '936'),
             routes: [
               {
                 path: '/advanced-ai-control/module-5-advanced-ai',
@@ -115,6 +145,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/sample-protected-content',
+                component: ComponentCreator('/sample-protected-content', '0d5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/simulation/digital-twins',
                 component: ComponentCreator('/simulation/digital-twins', '2e8'),
                 exact: true,
@@ -129,6 +165,30 @@ export default [
               {
                 path: '/simulation/module-2-simulation',
                 component: ComponentCreator('/simulation/module-2-simulation', 'ded'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/ur/appendix/glossary',
+                component: ComponentCreator('/ur/appendix/glossary', 'd90'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/ur/intro',
+                component: ComponentCreator('/ur/intro', '46f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/ur/introduction/intro',
+                component: ComponentCreator('/ur/introduction/intro', 'e46'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/ur/ros2-foundations/module-1-ros2',
+                component: ComponentCreator('/ur/ros2-foundations/module-1-ros2', 'ce0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

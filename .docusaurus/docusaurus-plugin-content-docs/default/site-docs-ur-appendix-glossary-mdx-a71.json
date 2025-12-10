@@ -1,0 +1,24 @@
+{
+  "id": "ur/appendix/glossary",
+  "title": "Urdu Version - Appendix",
+  "description": "یہ قطعہ جسمانی AI اور ہیومنوائڈ روبوٹکس کے لیے اضافی وسائل فراہم کرتا ہے۔",
+  "source": "@site/docs/ur/appendix/glossary.mdx",
+  "sourceDirName": "ur/appendix",
+  "slug": "/ur/appendix/glossary",
+  "permalink": "/ur/appendix/glossary",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Urdu Appendix",
+    "sidebar_position": 1,
+    "title": "Urdu Version - Appendix"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Urdu ROS 2 Foundations",
+    "permalink": "/ur/ros2-foundations/module-1-ros2"
+  }
+}

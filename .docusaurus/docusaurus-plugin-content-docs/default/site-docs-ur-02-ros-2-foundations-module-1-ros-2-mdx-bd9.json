@@ -1,0 +1,28 @@
+{
+  "id": "ur/ros2-foundations/module-1-ros2",
+  "title": "Urdu Version - ROS 2 Foundations",
+  "description": "ROS 2 (Robot Operating System 2) جدید روبوٹکس کے لیے ایک بنیادی ڈھانچہ ہے جو روبوٹ سافٹ ویئر کی ترقی کو استحکام فراہم کرتا ہے۔",
+  "source": "@site/docs/ur/02-ros2-foundations/module-1-ros2.mdx",
+  "sourceDirName": "ur/02-ros2-foundations",
+  "slug": "/ur/ros2-foundations/module-1-ros2",
+  "permalink": "/ur/ros2-foundations/module-1-ros2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Urdu ROS 2 Foundations",
+    "sidebar_position": 1,
+    "title": "Urdu Version - ROS 2 Foundations"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "جسمانی AI اور ہیومنوائڈ روبوٹکس کا درسی نصاب",
+    "permalink": "/ur/intro"
+  },
+  "next": {
+    "title": "Urdu Appendix",
+    "permalink": "/ur/appendix/glossary"
+  }
+}

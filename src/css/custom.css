@@ -1,14 +1,39 @@
 /* custom.css */
 
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b3;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #570683; /* Our brand purple */
+  --ifm-color-primary-dark: #4a056e;
+  --ifm-color-primary-darker: #420462;
+  --ifm-color-primary-darkest: #350359;
+  --ifm-color-primary-light: #6a1da7;
+  --ifm-color-primary-lighter: #7729b3;
+  --ifm-color-primary-lightest: #8f48c7;
+  --ifm-color-gray-100: #f8fafc;
+  --ifm-color-gray-200: #f1f5f9;
+  --ifm-color-gray-300: #e2e8f0;
+  --ifm-color-gray-400: #cbd5e1;
+  --ifm-color-gray-500: #94a3b8;
+  --ifm-color-gray-600: #475569;
+  --ifm-color-gray-700: #334155;
+  --ifm-color-gray-800: #1e293b;
+  --ifm-color-gray-900: #0f172a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode specific styling */
+html[data-theme='dark'] {
+  --ifm-color-primary: #b088ff;
+  --ifm-color-primary-dark: #9d6fff;
+  --ifm-color-primary-darker: #8f57ff;
+  --ifm-color-primary-darkest: #7529ff;
+  --ifm-color-primary-light: #c3a1ff;
+  --ifm-color-primary-lighter: #d0b5ff;
+  --ifm-color-primary-lightest: #e6d9ff;
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  --ifm-color-content: #f1f5f9;
+  --ifm-color-content-secondary: #cbd5e1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 /* For readability in Chrome, darken the scrollbar thumb in dark mode. */
@@ -18,6 +43,50 @@
   }
 }
 
+/* Ensure proper text contrast in dark mode */
+html[data-theme='dark'] .hero__title,
+html[data-theme='dark'] .hero__subtitle,
+html[data-theme='dark'] .container .col p,
+html[data-theme='dark'] .section p {
+  color: var(--ifm-color-content, #f1f5f9) !important;
+}
+
+/* Footer styling */
 .footer {
-  background-color: rgb(17, 17, 18);
+  background-color: #0b0a0a;
+}
+
+/* Card styling for better contrast in dark mode */
+html[data-theme='dark'] .card {
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Links styling */
+a {
+  color: var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] a {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Code block styling */
+.code-block {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-color-content);
+}
+
+/* Ensure proper contrast for all text elements */
+html[data-theme='dark'] {
+  --ifm-color-emphasis-0: var(--ifm-color-gray-100);
+  --ifm-color-emphasis-100: var(--ifm-color-gray-100);
+  --ifm-color-emphasis-200: var(--ifm-color-gray-200);
+  --ifm-color-emphasis-300: var(--ifm-color-gray-300);
+  --ifm-color-emphasis-400: var(--ifm-color-gray-400);
+  --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+  --ifm-color-emphasis-600: var(--ifm-color-gray-600);
+  --ifm-color-emphasis-700: var(--ifm-color-gray-700);
+  --ifm-color-emphasis-800: var(--ifm-color-gray-800);
+  --ifm-color-emphasis-900: var(--ifm-color-gray-900);
 }

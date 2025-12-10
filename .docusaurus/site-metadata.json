@@ -26,6 +26,9 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.9.2"
+    },
+    "docusaurus-auth-plugin": {
+      "type": "local"
     }
   }
 }

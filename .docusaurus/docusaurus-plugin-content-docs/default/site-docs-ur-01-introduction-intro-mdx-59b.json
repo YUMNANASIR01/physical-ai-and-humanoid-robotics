@@ -1,0 +1,28 @@
+{
+  "id": "ur/introduction/intro",
+  "title": "Urdu Version - Introduction",
+  "description": "جسمانی AI اور ہیومنوائڈ روبوٹکس کا درسی نصاب — ایک عملی، منصوبہ بندی پر مبنی کورس جو آپ کو ہیومنوائڈ روبوٹس کو ڈیزائن، تربیت اور کنٹرول کرنے کی تکنیک سکھاتا ہے، یہ جدید AI تکنیکوں کو استعمال کرتے ہوئے۔",
+  "source": "@site/docs/ur/01-introduction/intro.mdx",
+  "sourceDirName": "ur/01-introduction",
+  "slug": "/ur/introduction/intro",
+  "permalink": "/ur/introduction/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Urdu Introduction",
+    "sidebar_position": 1,
+    "title": "Urdu Version - Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sample Protected Page",
+    "permalink": "/sample-protected-content"
+  },
+  "next": {
+    "title": "جسمانی AI اور ہیومنوائڈ روبوٹکس کا درسی نصاب",
+    "permalink": "/ur/intro"
+  }
+}

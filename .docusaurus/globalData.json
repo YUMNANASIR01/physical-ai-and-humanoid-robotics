@@ -61,6 +61,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "sample-protected-content",
+              "path": "/sample-protected-content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "simulation/digital-twins",
               "path": "/simulation/digital-twins",
               "sidebar": "tutorialSidebar"
@@ -73,6 +78,26 @@
             {
               "id": "simulation/module-2-simulation",
               "path": "/simulation/module-2-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ur/appendix/glossary",
+              "path": "/ur/appendix/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ur/intro",
+              "path": "/ur/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ur/introduction/intro",
+              "path": "/ur/introduction/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ur/ros2-foundations/module-1-ros2",
+              "path": "/ur/ros2-foundations/module-1-ros2",
               "sidebar": "tutorialSidebar"
             },
             {

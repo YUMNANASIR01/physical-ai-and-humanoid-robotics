@@ -1,0 +1,26 @@
+{
+  "id": "sample-protected-content",
+  "title": "Sample Protected Page",
+  "description": "This is an example of how the protected content feature works. The content below will only be visible to authenticated users.",
+  "source": "@site/docs/sample-protected-content.mdx",
+  "sourceDirName": ".",
+  "slug": "/sample-protected-content",
+  "permalink": "/sample-protected-content",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Sample Protected Page",
+    "title": "Sample Protected Page"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "resources",
+    "permalink": "/appendix/resources"
+  },
+  "next": {
+    "title": "Urdu Introduction",
+    "permalink": "/ur/introduction/intro"
+  }
+}

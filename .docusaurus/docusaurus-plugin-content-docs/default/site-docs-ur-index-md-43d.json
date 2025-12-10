@@ -1,0 +1,26 @@
+{
+  "id": "ur/index",
+  "title": "جسمانی AI اور ہیومنوائڈ روبوٹکس",
+  "description": "",
+  "source": "@site/docs/ur/index.md",
+  "sourceDirName": "ur",
+  "slug": "/ur/",
+  "permalink": "/ur/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "جسمانی AI اور ہیومنوائڈ روبوٹکس",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sample Protected Page",
+    "permalink": "/sample-protected-content"
+  },
+  "next": {
+    "title": "Urdu Introduction",
+    "permalink": "/ur/introduction/intro"
+  }
+}

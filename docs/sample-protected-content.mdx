@@ -1,0 +1,36 @@
+---
+sidebar_label: 'Sample Protected Page'
+title: 'Sample Protected Page'
+---
+
+# Sample Protected Textbook Content
+
+This is an example of how the protected content feature works. The content below will only be visible to authenticated users.
+
+import { ProtectedContent } from '@site/src/components/Auth/ProtectedContent';
+
+<ProtectedContent message="This section contains advanced robotics concepts that require authentication to access. Please sign in to continue reading.">
+
+## Advanced Robotics Concepts
+
+### Inverse Kinematics
+
+Inverse kinematics (IK) is a mathematical process that calculates the joint angles required to position the end effector of a robotic arm at a specific location. This is crucial for tasks like grasping objects, path planning, and manipulation.
+
+### Control Theory
+
+Modern robotics relies heavily on control systems to manage robot behavior. PID controllers, state-space models, and adaptive control algorithms form the foundation of responsive robotic systems.
+
+### SLAM (Simultaneous Localization and Mapping)
+
+SLAM algorithms allow robots to build a map of an unknown environment while simultaneously keeping track of their location within that map. This is essential for autonomous navigation.
+
+</ProtectedContent>
+
+## Public Content
+
+This section is visible to everyone, regardless of authentication status. It provides an overview of robotics fundamentals:
+
+- **Forward Kinematics**: Calculating end-effector position from joint angles
+- **Robot Operating System (ROS)**: Framework for robot software development
+- **Actuators and Sensors**: Basic components for robot perception and action

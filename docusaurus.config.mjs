@@ -9,7 +9,7 @@ const config = {
   // ✅ Vercel settings
   url: 'https://human-inspired-robotics-intelligence.vercel.app',
   baseUrl: '/',
-  
+
   organizationName: 'YUMNANASIR01',
   projectName: 'Physical AI and Humanoid Robotics',
 
@@ -72,6 +72,10 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          {
+            type: 'custom-NavbarItems',
+            position: 'right',
+          },
         ],
       },
 
@@ -122,6 +126,24 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  // Add global remark plugins to make components available in MDX files
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-auth-plugin',
+        configureWebpack(config, isServer, utils) {
+          return {
+            resolve: {
+              alias: {
+                '@site/src/components': require('path').join(__dirname, 'src/components'),
+              },
+            },
+          };
+        },
+      };
+    },
+  ],
 };
 
 export default config;

@@ -15,5 +15,9 @@
   "previous": {
     "title": "References",
     "permalink": "/appendix/references"
+  },
+  "next": {
+    "title": "Sample Protected Page",
+    "permalink": "/sample-protected-content"
   }
 }

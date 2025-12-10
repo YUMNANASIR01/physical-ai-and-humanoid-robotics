@@ -42,24 +42,66 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
+  "/forgot-password-dfd": {
+    "__comp": "__comp---site-src-pages-forgot-password-jseb-0-e84",
+    "__context": {
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
+    },
+    "config": "config---auth-github-callback-5-e-9-eeb"
+  },
+  "/login-a8c": {
+    "__comp": "__comp---site-src-pages-login-js-380-710",
+    "__context": {
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
+    },
+    "config": "config---auth-github-callback-5-e-9-eeb"
+  },
+  "/profile-ef2": {
+    "__comp": "__comp---site-src-pages-profile-jsd-07-cca",
+    "__context": {
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
+    },
+    "config": "config---auth-github-callback-5-e-9-eeb"
+  },
+  "/settings-eb4": {
+    "__comp": "__comp---site-src-pages-settings-js-58-a-2b6",
+    "__context": {
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
+    },
+    "config": "config---auth-github-callback-5-e-9-eeb"
+  },
+  "/signup-e02": {
+    "__comp": "__comp---site-src-pages-signup-js-83-a-147",
+    "__context": {
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
+    },
+    "config": "config---auth-github-callback-5-e-9-eeb"
+  },
+  "/ur/-0e5": {
+    "__comp": "__comp---site-src-pages-ur-index-js-793-b43",
+    "__context": {
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
+    },
+    "config": "config---auth-github-callback-5-e-9-eeb"
+  },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---auth-github-callbacka-74-7c4"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---auth-github-callback-5-e-9-eeb"
   },
-  "/-b79": {
+  "/-f4b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-eff": {
+  "/-daa": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-c90": {
+  "/-936": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/advanced-ai-control/module-5-advanced-ai-d41": {
@@ -102,6 +144,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---ros-2-foundations-ros-2-hands-on-5-e-4-a3b"
   },
+  "/sample-protected-content-0d5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---sample-protected-contentea-0-880"
+  },
   "/simulation/digital-twins-2e8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---simulation-digital-twins-349-22a"
@@ -113,6 +159,22 @@
   "/simulation/module-2-simulation-ded": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---simulation-module-2-simulation-677-53b"
+  },
+  "/ur/appendix/glossary-d90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ur-appendix-glossarya-71-55a"
+  },
+  "/ur/intro-46f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ur-intro-8-b-3-c0e"
+  },
+  "/ur/introduction/intro-e46": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ur-introduction-intro-59-b-d13"
+  },
+  "/ur/ros2-foundations/module-1-ros2-ce0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ur-ros-2-foundations-module-1-ros-2-bd-9-fbc"
   },
   "/vla-systems/module-4-vla-foundations-db4": {
     "__comp": "__comp---theme-doc-item-178-a40",
